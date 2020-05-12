@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ship Parameters</title>
+		<script src="scripts/supplies.js" defer></script>
+		<link href="styles/mystyle.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Merriweather&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="logo">
+				<h1>ITSI</h1>
+			</div>
+			<div class="text">
+			<h2>Supplies</h2>
+			</div>
+		</div>
+		<div class="flexbox">
+			<div class="box onhover" onclick="getFood()">
+				<h3>Food</h3>
+				<h3 id="food-supply" ></h3>
+			</div>
+			<div class="box onhover" onclick="getWater()">
+				<h3>Water</h3>
+				<h3 id="water-supply"></h3>
+			</div>
+			<div>
+				<h4>By clicking on "Food" or "Water", you are taking one drink or meal.</h4>
+			</div>
+		</div>
+		<div class="go-home">
+			<a href="index.html" style="color: #98ff98 ">Back</a>
+		</div>
+	</body>
+</html>

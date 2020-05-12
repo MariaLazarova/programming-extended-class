@@ -1,0 +1,144 @@
+html, body {
+	background-image: url("../images/sky.jpeg"); 
+	scroll-behavior: smooth;
+	font-family: 'Inconsolata', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.body-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*text-align: center;*/
+	align-items: center;
+
+}
+
+/*Logo style*/
+
+.logo {
+font-family: 'Merriweather', serif;
+text-align: center;
+color: #98ff98;
+font-size: 60px;
+}
+
+.text {
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+	color: #98ff98;
+	/*font-size: 30px;*/
+
+}
+
+/*Felxbox*/
+
+.menu-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 85vw;
+	align-content: center;
+	justify-content: center;
+	padding-top: 5vh;
+	padding-bottom: 5vh;	
+	
+}
+
+.menu-item-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: rgb(152, 255, 152);
+	width: 30vw;
+	height: 50vh;
+	align-items: center;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(152, 255, 152, .75); 
+	-moz-box-shadow: 0px 0px 10px 1px rgba(152, 255, 152, .75); 
+	box-shadow: 0px 0px 10px 1px rgba(152, 255, 152, .75);
+	cursor: pointer;
+	
+}
+
+.menu-item-box:nth-child(even) {
+	margin-left: 3vw;	
+}
+
+.menu-item-box:nth-child(1) {
+	margin-bottom:  5vh;	
+}
+.menu-item-box:nth-child(2) {
+	margin-bottom:  5vh;	
+}
+
+.menu-item-box img {
+	width: 20vw;
+	height: 20vh;
+
+}
+
+.menu-item-box img path {
+	fill: yellow;
+}
+
+.menu-item-box:hover {
+  transform: scale(1.05);
+}
+
+.flexbox{
+	font-family: 'Inconsolata', monospace;
+	color: #98ff98;
+	font-size: 40px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+.box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+.onhover:hover{
+	background-color: rgba(255, 255, 255, .10);
+
+}
+
+.go-home {
+
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	color: #98ff98;
+	font-size: 20px;
+	padding-top: 10vh;
+
+}
+
+
+
+./*parameters {
+	display: flex;
+	flex-direction: column;
+	color: #98ff98;
+	font-size: 40px;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+.parameter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 3vw;
+	padding-right: 3vw;
+
+}
+*/
+
